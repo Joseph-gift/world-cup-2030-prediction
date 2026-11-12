@@ -3,7 +3,7 @@ from pathlib import Path
 import requests
 
 BASE_URL = "https://raw.githubusercontent.com/martj42/international_results/master/"
-FILES = ["results.csv", "former_names.csv", "shootouts.csv"]
+FILES = ["results.csv", "former_names.csv", "shootouts.csv", "goalscorers.csv"]
 RAW_DIR = Path(__file__).resolve().parent.parent / "data" / "raw"
 
 
